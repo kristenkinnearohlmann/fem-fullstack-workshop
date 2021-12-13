@@ -27,8 +27,17 @@
   - Main area is where things change
   - Note what things are reusable and how those modules change
   - This is often an interview question
-- Install UI library - chakra (part of dependencies) <https://chakra-ui.com/>
+- Install UI library - chakra (part of dependencies) <https://chakra-ui.com/> => more open source!!; also recommends Evergreen UI <https://evergreen.segment.com/>; Tailwind makes you pay and you still need to write your own components
 - Prefers to live close to JS for CSS styling
 - His linter asked him to do ES6, I'm leaving as 5 for now, ended up copying because something I typed was wrong
 - Prefers navigation to be positioned and sized in px
 - em for layout, rem for components
+- He does like building out the visible stuff and mock in until data is truly needed
+- Will add his own TSLint rule to keep components under 50 lines
+
+## Data
+- Using Prisma <https://www.prisma.io/>
+- Find Prisma extension for VS Code
+- Run `npx prisma init`
+- Go to Heroku and add a new app, add 2 postgress (Heroku) dbs; use URIs in `.env` file
+- Need to capture `.env` file settings
