@@ -1,16 +1,19 @@
 # Frontend Masters - Full Stack - Scott Moss
 
 ## Info
+
 - Netflix most recently, now is a full-time investor!
 - Hands-on project: build a Spotify clone
 
 ## Dependencies
+
 - Low barrier to entry for this course - all you need is Node on your machine!
 - React, Postgres, Prisma, Next.js, React, Vercel, Heroku, etc...
 - Notes: <https://tinted-gym-f99.notion.site/Fullstack-course-notes-Students-3202660c315b438aba6c1ae051963572>
 - We are going to build from scratch - will reference other repo
 
 ## Build
+
 - Use npx
 - Have gone back to having backend and frontend in same app, but deployed differently
 - Renamed eslint to js
@@ -22,6 +25,7 @@
 - May need to substitue `bcryptjs` for Mac
 
 ## Design
+
 - Break down of layout - ALWAYS START HERE
   - Left nav and play bar at bottom - sit on top of page and don't change!
   - Main area is where things change
@@ -36,8 +40,21 @@
 - Will add his own TSLint rule to keep components under 50 lines
 
 ## Data
+
 - Using Prisma <https://www.prisma.io/>
 - Find Prisma extension for VS Code
 - Run `npx prisma init`
 - Go to Heroku and add a new app, add 2 postgress (Heroku) dbs; use URIs in `.env` file
 - Need to capture `.env` file settings
+- Postgres needs a "shadow" db - make sure your user has permission to create dbs or do this Heroku version
+- Check lines 10-13 on settings.json to put on Mac (how to get to JSON file)
+- push vs migration for Prisma => check into this
+- Commands
+
+```javascript
+npx prisma db push
+npx prisma migrate
+npx prisma db seed
+npx prisma studio
+npx prisma generate // (new client)
+```
