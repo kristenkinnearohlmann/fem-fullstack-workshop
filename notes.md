@@ -53,8 +53,18 @@
 
 ```javascript
 npx prisma db push
-npx prisma migrate
+npx prisma migrate dev // actual application of changes, will walk you through the changes
+npx prisma migrate reset // truncates data
 npx prisma db seed
 npx prisma studio
 npx prisma generate // (new client)
 ```
+
+## API
+
+- Files in pages/api are routes
+
+## Day 2
+
+- Review Typescript checking of components from Scott's code
+- Recommends keeping up Inspect to do hard reloads
