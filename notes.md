@@ -69,3 +69,4 @@ npx prisma generate // (new client)
 - Review Typescript checking of components from Scott's code
 - Recommends keeping up Inspect to do hard reloads
 - Used kkinnea@gmail.com/abc123 and bob@dobbs.com/xyz987
+- Study validateRoute for structure in me.ts
