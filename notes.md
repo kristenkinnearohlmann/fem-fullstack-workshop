@@ -78,3 +78,6 @@ npx prisma generate // (new client)
 
 - Look inito Snowpack and Pika instead of webpack?
 - Always use CanIUse!!
+- Testing: use Jest for unit, Cypress for end-to-end, Supertest or Superagent for API; see Next website
+- CI: Use GitHub Actions for build testing; can also use Travis CI, Circle CI, Jenkins for non-personal work
+- Next will build static pages for any pages that don't have `getServerSideProps` by default; opted in by default
