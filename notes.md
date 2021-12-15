@@ -73,3 +73,8 @@ npx prisma generate // (new client)
 - Study service vs edge functions; service spins up when needed, edge sits on edge of CDN and is middleware between API service functions and client; review Nextjs site for examples
 - Review NextAuth for using OAuth; overkill for simple email/pass
 - `_middleware` file will execute ahead of other pages in dir; 1 level only; can put one in API as well
+
+## Day 3
+
+- Look inito Snowpack and Pika instead of webpack?
+- Always use CanIUse!!
