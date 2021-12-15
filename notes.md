@@ -70,3 +70,6 @@ npx prisma generate // (new client)
 - Recommends keeping up Inspect to do hard reloads
 - Used kkinnea@gmail.com/abc123 and bob@dobbs.com/xyz987
 - Study validateRoute for structure in me.ts
+- Study service vs edge functions; service spins up when needed, edge sits on edge of CDN and is middleware between API service functions and client; review Nextjs site for examples
+- Review NextAuth for using OAuth; overkill for simple email/pass
+- `_middleware` file will execute ahead of other pages in dir; 1 level only; can put one in API as well
